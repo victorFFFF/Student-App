@@ -1,0 +1,14 @@
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttonTag {
+  background-color: lightgrey;
+  padding: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.buttonTag:hover {
+  opacity: 0.6;
+}

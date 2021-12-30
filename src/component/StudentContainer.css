@@ -1,0 +1,40 @@
+.container {
+  height: 700px;
+  overflow: scroll;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px #dcdcdc solid;
+  margin: 6em;
+  margin-left: 16em;
+  width: 70vw;
+}
+
+.studentContainer {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(211, 211, 211, 0.3);
+}
+
+.studentContainer:first-of-type {
+  margin-top: 8em;
+}
+
+.text {
+  font-family: "Raleway";
+  overflow: hidden;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px #e5e4e2 solid;
+  margin: 20px;
+  float: left;
+}
+.searchContainer {
+  position: fixed;
+  width: 75%;
+  z-index: 100;
+  margin-top: 0.22em;
+  /* width: 100%; */
+}

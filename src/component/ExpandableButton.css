@@ -1,0 +1,10 @@
+.buttonSymbol {
+  float: right;
+  background-color: rgba(94, 52, 52, 0.01);
+  border: none;
+  font-size: 5em;
+  color: grey;
+  top: -195px;
+  position: relative;
+  z-index: 99;
+}

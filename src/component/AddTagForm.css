@@ -1,0 +1,6 @@
+.addTag {
+  border: none;
+  border-bottom: 1px grey solid;
+  outline: none;
+  align-items: flex-end;
+}

@@ -1,0 +1,21 @@
+.inputName {
+  width: 91%;
+  height: 50px;
+  font-size: 25px;
+  border: none;
+  border-bottom: 1px grey solid;
+  outline: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.inputTag {
+  width: 91%;
+  height: 50px;
+  font-size: 25px;
+  border: none;
+  border-bottom: 1px grey solid;
+  outline: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
