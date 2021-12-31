@@ -41,7 +41,12 @@ function StudentContainer() {
   };
 
   useEffect(() => {
+    let isApiSubscribed = true;
     getStudents();
+
+    return () => {
+      isApiSubscribed = false;
+    };
   }, []);
 
   return (
