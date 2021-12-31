@@ -16,12 +16,10 @@ function TagContainer({ studentSelected, setSelectedStudent, i }) {
       {/* List of tag*/}
       {studentSelected[i].tags.map((item, index) => (
         <div key={item}>
-          {item ? (
+          {item.length > 0 && (
             <button className="buttonTag" onClick={() => deleteTag(item, i)}>
               {item}
             </button>
-          ) : (
-            ""
           )}
         </div>
       ))}
