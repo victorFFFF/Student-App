@@ -1,6 +1,6 @@
 import "./SearchInput.css";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function SearchInput({ setSelectedStudent, studentInfo }) {
   const [searchInput, setSearchInput] = useState({
