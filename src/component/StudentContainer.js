@@ -62,34 +62,35 @@ function StudentContainer() {
 
       {/* List of student displayed */}
       <div>
-        {studentSelected.map((element, i) => (
-          <div key={i} className="studentContainer">
+        {studentSelected.map((element, index) => (
+          <div key={element.id} className="studentContainer">
             <img src={element.pic} alt="student"></img>
             <div className="text">
               <StudentInformation element={element}></StudentInformation>
               <ExpandableButton
                 studentInfo={studentInfo}
                 setStudentInfo={setStudentInfo}
-                i={i}
+                id={element.id}
               ></ExpandableButton>
 
               <StudentGrades
                 studentSelected={studentSelected}
                 studentInfo={studentInfo}
-                i={i}
+                id={element.id}
               ></StudentGrades>
 
               <TagContainer
                 studentSelected={studentSelected}
                 setSelectedStudent={setSelectedStudent}
-                i={i}
+                setStudentInfo={setStudentInfo}
+                id={element.id}
               ></TagContainer>
 
               {/* Form for adding a tag  */}
               <AddTagForm
                 studentSelected={studentSelected}
                 setSelectedStudent={setSelectedStudent}
-                i={i}
+                index={index}
               ></AddTagForm>
             </div>
           </div>
